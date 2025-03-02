@@ -129,9 +129,9 @@
                 
                 <div class="mb-3 " >
                     <label class="form-label">Image</label>
-                    <div class="img-box">
-                        <input type="file" id="productImage" name="image" class="form-control opacity-0 w-100 h-100">
-                        <img id="previewImage" src="" class="img-thumbnail mt-2 w-100 h-100 opacity-0">
+                    <div class="">
+                        <input type="file" id="productImage" name="image" class="form-control ">
+                        <img id="previewImage" src="" class="img-thumbnail mt-2">
                     </div>
                     
                 </div>
