@@ -51,9 +51,9 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container mt-5">
-        
         <div class="search-container ">
             <h1>Product Management</h1>
             <button id="openDrawer" class="btn btn-primary">Add Product</button>
@@ -95,6 +95,7 @@
                 </tbody>
             </tbody>
         </table>
+
     </div>
 
     <div class="drawer" id="drawer">
@@ -171,6 +172,7 @@
             drawer.classList.add('open');
             document.getElementById('productForm').reset();
         });
+        
         // view detail
         document.getElementById('btnViewDel').addEventListener('click', () => {
             drawer.classList.add('open');
@@ -208,5 +210,4 @@
     </script>
 
 </body>
-
 </html>
