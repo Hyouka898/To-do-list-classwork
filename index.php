@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Hello</h1>
-    <h1>Test</h1>
+    <h1>View Detail</h1>
 </body>
 </html>
